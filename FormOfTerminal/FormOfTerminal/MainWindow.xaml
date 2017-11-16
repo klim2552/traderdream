@@ -1,0 +1,64 @@
+﻿<Window x:Class="FormOfTerminal.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FormOfTerminal"
+        mc:Ignorable="d"
+        Title="dream_trader" Height="390.343" Width="684.19">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="48*"/>
+            <RowDefinition Height="304*"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="Кнопка1" Content="Chart" HorizontalAlignment="Center" VerticalAlignment="Top" Width="64" Height="62" Margin="3,0,609,0" Grid.Row="2"/>
+        <Button Content="Spread Chart" HorizontalAlignment="Center" VerticalAlignment="Top" Width="75" Height="60" Margin="72,2,529,0" Click="Button_Click" Grid.Row="2"/>
+        <Button x:Name="Кнопка1_Copy" Content="Tick Cluster" HorizontalAlignment="Center" VerticalAlignment="Top" Width="68" Height="60" Margin="152,2,456,0" Grid.Row="2"/>
+        <Button x:Name="Кнопка1_Copy1" Content="Smart Tape" HorizontalAlignment="Center" VerticalAlignment="Top" Width="71" Height="62" Margin="225,0,380,0" Grid.Row="2"/>
+        <Button x:Name="Кнопка1_Copy2" Content="Spread Tape" HorizontalAlignment="Center" VerticalAlignment="Top" Width="96" Height="61" Margin="301,1,279,0" Grid.Row="2"/>
+        <Button x:Name="Кнопка1_Copy3" Content="All Prices" HorizontalAlignment="Center" VerticalAlignment="Top" Width="96" Height="60" Margin="402,2,178,0" Grid.Row="2"/>
+        <Button x:Name="Кнопка1_Copy4" Content="Smart DOM" HorizontalAlignment="Center" VerticalAlignment="Top" Width="96" Height="60" Margin="503,2,77,0" Grid.Row="2"/>
+        <Menu HorizontalAlignment="Left" Height="30" Margin="556,0,0,0" VerticalAlignment="Top" Width="101" Grid.Row="1">
+            <MenuItem Header="Помощь" Height="30" Width="101">
+                <MenuItem Header="Новости платформы" Height="30" Margin="0,0,-47,0"/>
+                <MenuItem Header="Поддержка" HorizontalAlignment="Left" Height="30" Width="151"/>
+                <MenuItem Header="Информация о лицензии" Height="30" Margin="0,0,-47,0"/>
+                <MenuItem Header="О программе..." HorizontalAlignment="Left" Height="30" Width="178" Click="MenuItem_Click_7"/>
+            </MenuItem>
+        </Menu>
+        <Menu HorizontalAlignment="Left" Height="30" Margin="455,0,0,0" Grid.Row="1" VerticalAlignment="Top" Width="96">
+            <MenuItem Header="Настройки" Height="30" Width="96">
+                <MenuItem Header="Подключение торговли и котировок" Height="20" Margin="0,0,-45,0"/>
+                <MenuItem Header="Рабочие пространства" HorizontalAlignment="Left" Height="20" Width="242"/>
+                <MenuItem Header="Настройка слоев" HorizontalAlignment="Left" Height="20" Width="243" Click="MenuItem_Click_4"/>
+                <MenuItem Header="Рабочие слои" HorizontalAlignment="Left" Height="20" Width="243"/>
+                <MenuItem Header="Настройки звуков" HorizontalAlignment="Left" Height="20" Width="243"/>
+                <MenuItem Header="Комиссии за торговлю" HorizontalAlignment="Left" Height="20" Width="243" Click="MenuItem_Click_5"/>
+                <MenuItem Header="Смещение времени" HorizontalAlignment="Left" Height="20" Width="243"/>
+                <MenuItem Header="Торговые площадки" HorizontalAlignment="Left" Height="20" Width="243"/>
+                <MenuItem Header="Горячие клавиши" HorizontalAlignment="Left" Height="20" Width="243"/>
+                <MenuItem Header="Общие настройки" HorizontalAlignment="Left" Height="20" Width="243" Click="MenuItem_Click_6"/>
+                <MenuItem Header="Язык" HorizontalAlignment="Left" Height="20" Width="243"/>
+                <MenuItem Header="Стиль" HorizontalAlignment="Left" Height="20" Width="243"/>
+            </MenuItem>
+        </Menu>
+        <Menu HorizontalAlignment="Left" Height="27" Margin="360,3,0,0" Grid.Row="1" VerticalAlignment="Top" Width="90">
+            <MenuItem Header="Открыть" Height="27" Width="90" Click="MenuItem_Click_8">
+                <MenuItem Header="Chart" Height="27" Margin="0,0,1,0" RenderTransformOrigin="0.285,0.852"/>
+                <MenuItem Header="Spread Chart" Height="30" Margin="0,0,-40,0"/>
+                <MenuItem Header="Tick Cluster" HorizontalAlignment="Left" Height="30" Width="145" Margin="0,0,-1,0"/>
+                <MenuItem Header="Smart Tape" HorizontalAlignment="Left" Height="30" Width="145" Margin="0,0,-5,0"/>
+                <MenuItem Header="Spread Tape" HorizontalAlignment="Left" Height="30" Width="150" Margin="0,0,-10,0"/>
+                <MenuItem Header="All Prices" HorizontalAlignment="Left" Height="30" Width="140"/>
+                <MenuItem Header="Smart Dom" HorizontalAlignment="Left" Height="30" Width="145"/>
+                <MenuItem Header="Level2" HorizontalAlignment="Left" Height="30" Width="120"/>
+                <MenuItem Header="Alerts" HorizontalAlignment="Left" Height="30" Width="145"/>
+                <MenuItem Header="News" HorizontalAlignment="Left" Height="30" Width="145"/>
+            </MenuItem>
+        </Menu>
+    </Grid>
+</Window>
