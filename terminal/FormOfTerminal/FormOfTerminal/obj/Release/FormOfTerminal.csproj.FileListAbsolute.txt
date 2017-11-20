@@ -1,0 +1,15 @@
+D:\C#_projects\terminal\FormOfTerminal\FormOfTerminal\bin\Release\FormOfTerminal.exe.config
+D:\C#_projects\terminal\FormOfTerminal\FormOfTerminal\bin\Release\FormOfTerminal.exe
+D:\C#_projects\terminal\FormOfTerminal\FormOfTerminal\bin\Release\FormOfTerminal.pdb
+D:\C#_projects\terminal\FormOfTerminal\FormOfTerminal\obj\Release\MainWindow.g.cs
+D:\C#_projects\terminal\FormOfTerminal\FormOfTerminal\obj\Release\App.g.cs
+D:\C#_projects\terminal\FormOfTerminal\FormOfTerminal\obj\Release\FormOfTerminal_MarkupCompile.cache
+D:\C#_projects\terminal\FormOfTerminal\FormOfTerminal\obj\Release\FormOfTerminal_MarkupCompile.lref
+D:\C#_projects\terminal\FormOfTerminal\FormOfTerminal\obj\Release\MainWindow.baml
+D:\C#_projects\terminal\FormOfTerminal\FormOfTerminal\obj\Release\FormOfTerminal.g.resources
+D:\C#_projects\terminal\FormOfTerminal\FormOfTerminal\obj\Release\FormOfTerminal.Properties.Resources.resources
+D:\C#_projects\terminal\FormOfTerminal\FormOfTerminal\obj\Release\FormOfTerminal.csproj.GenerateResource.Cache
+D:\C#_projects\terminal\FormOfTerminal\FormOfTerminal\obj\Release\FormOfTerminal.csproj.CoreCompileInputs.cache
+D:\C#_projects\terminal\FormOfTerminal\FormOfTerminal\obj\Release\FormOfTerminal.exe
+D:\C#_projects\terminal\FormOfTerminal\FormOfTerminal\obj\Release\FormOfTerminal.pdb
+D:\C#_projects\terminal\FormOfTerminal\FormOfTerminal\obj\Release\FormOfTerminal.csprojResolveAssemblyReference.cache
